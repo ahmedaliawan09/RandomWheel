@@ -586,8 +586,8 @@ export default function PrizeBoxGame({ onBack }) {
                                     <div
                                         key={i}
                                         className={`rounded-xl p-5 text-center transition-all duration-500 ${emp
-                                                ? "bg-gradient-to-br from-emerald-500/20 via-teal-500/20 to-cyan-500/20 border-2 border-emerald-400/50 shadow-lg shadow-emerald-500/20 transform scale-105"
-                                                : "bg-slate-700/30 border border-slate-600/30"
+                                            ? "bg-gradient-to-br from-emerald-500/20 via-teal-500/20 to-cyan-500/20 border-2 border-emerald-400/50 shadow-lg shadow-emerald-500/20 transform scale-105"
+                                            : "bg-slate-700/30 border border-slate-600/30"
                                             }`}
                                     >
                                         {emp ? (
@@ -745,10 +745,10 @@ export default function PrizeBoxGame({ onBack }) {
                                         {/* Box exterior */}
                                         <div
                                             className={`absolute inset-0 rounded-2xl transition-all duration-500 ${isOpened
-                                                    ? `bg-gradient-to-br ${prize.color} border-4 border-white/40`
-                                                    : isSelected
-                                                        ? `bg-gradient-to-br ${prize.color} border-4 border-white/50`
-                                                        : "bg-gradient-to-br from-amber-400 via-yellow-500 to-orange-500 border-2 border-yellow-300/50"
+                                                ? `bg-gradient-to-br ${prize.color} border-4 border-white/40`
+                                                : isSelected
+                                                    ? `bg-gradient-to-br ${prize.color} border-4 border-white/50`
+                                                    : "bg-gradient-to-br from-amber-400 via-yellow-500 to-orange-500 border-2 border-yellow-300/50"
                                                 }`}
                                             style={{
                                                 boxShadow: isOpened
