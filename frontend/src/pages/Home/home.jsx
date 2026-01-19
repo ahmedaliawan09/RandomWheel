@@ -1,15 +1,60 @@
 "use client"
 
-import { useState, useEffect, useRef } from "react"
+import { useState, useEffect, useRef, useCallback } from "react"
 import GameSelector from "../../components/GameSelector"
 import UmrahSpinner from "../../components/UmrahSpinner"
 import PrizeBoxGame from "../../components/PrizeBoxGame"
 
 export default function Home() {
-    const [currentGame, setCurrentGame] = useState(null)
+    // Initialize state from sessionStorage to persist on refresh
+    const [currentGame, setCurrentGame] = useState(() => {
+        const saved = sessionStorage.getItem('currentGame')
+        return saved ? JSON.parse(saved) : null
+    })
     const [particles, setParticles] = useState([])
     const [lightBeams, setLightBeams] = useState([])
     const audioContextRef = useRef(null)
+    const isInitialMount = useRef(true)
+
+    // Handle game selection with history push
+    const handleSelectGame = useCallback((game) => {
+        setCurrentGame(game)
+        sessionStorage.setItem('currentGame', JSON.stringify(game))
+        // Push new history state when navigating to a game
+        window.history.pushState({ game }, '', `#${game}`)
+    }, [])
+
+    // Handle back navigation
+    const handleBack = useCallback(() => {
+        // Use history.back() to trigger popstate and proper navigation
+        window.history.back()
+    }, [])
+
+    // Listen for browser back/forward buttons
+    useEffect(() => {
+        const handlePopState = (event) => {
+            if (event.state && event.state.game) {
+                setCurrentGame(event.state.game)
+                sessionStorage.setItem('currentGame', JSON.stringify(event.state.game))
+            } else {
+                setCurrentGame(null)
+                sessionStorage.removeItem('currentGame')
+            }
+        }
+
+        window.addEventListener('popstate', handlePopState)
+
+        // On initial load, sync history state with current game
+        if (isInitialMount.current) {
+            isInitialMount.current = false
+            if (currentGame) {
+                // Replace current history state to include game info
+                window.history.replaceState({ game: currentGame }, '', `#${currentGame}`)
+            }
+        }
+
+        return () => window.removeEventListener('popstate', handlePopState)
+    }, [currentGame])
 
     useEffect(() => {
         // Create floating gold particles
@@ -131,11 +176,11 @@ export default function Home() {
             {/* Main content */}
             <div className="relative z-10 min-h-screen">
                 {currentGame === null ? (
-                    <GameSelector onSelectGame={setCurrentGame} />
+                    <GameSelector onSelectGame={handleSelectGame} />
                 ) : currentGame === "umrah" ? (
-                    <UmrahSpinner onBack={() => setCurrentGame(null)} />
+                    <UmrahSpinner onBack={handleBack} />
                 ) : (
-                    <PrizeBoxGame onBack={() => setCurrentGame(null)} />
+                    <PrizeBoxGame onBack={handleBack} />
                 )}
             </div>
         </div>

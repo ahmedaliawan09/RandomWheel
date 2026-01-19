@@ -1,0 +1,481 @@
+{
+    "junior": [
+        {
+            "firstName": "M.BILAL",
+            "lastName": "FAROOQ",
+            "avatar": "M",
+            "department": "Account Receivable"
+        },
+        {
+            "firstName": "SADIA",
+            "lastName": "MALIK",
+            "avatar": "S",
+            "department": "Call Center"
+        },
+        {
+            "firstName": "UMM E",
+            "lastName": "FARWA",
+            "avatar": "U",
+            "department": "Care Coordination"
+        },
+        {
+            "firstName": "SAADIA",
+            "lastName": "FAROOQ",
+            "avatar": "S",
+            "department": "Care Coordination"
+        },
+        {
+            "firstName": "MUQADAS",
+            "lastName": "JAHANGIR",
+            "avatar": "M",
+            "department": "Call Center"
+        },
+        {
+            "firstName": "ROMANIA",
+            "lastName": "EJAZ",
+            "avatar": "R",
+            "department": "Production"
+        },
+        {
+            "firstName": "MAMOONA NASEER",
+            "lastName": "KHAN",
+            "avatar": "M",
+            "department": "Standard Management"
+        },
+        {
+            "firstName": "SYED DANISH",
+            "lastName": "HASSAN",
+            "avatar": "S",
+            "department": "Call Center"
+        },
+        {
+            "firstName": "FAIZ",
+            "lastName": "SULTAN",
+            "avatar": "F",
+            "department": "Care Coordination"
+        },
+        {
+            "firstName": "SABA",
+            "lastName": "SAFDAR",
+            "avatar": "S",
+            "department": "Call Center"
+        },
+        {
+            "firstName": "MINAL",
+            "lastName": "",
+            "avatar": "M",
+            "department": "Care Coordination"
+        },
+        {
+            "firstName": "M.HAROON",
+            "lastName": "MOAZZAM",
+            "avatar": "M",
+            "department": "Business Development & Research"
+        },
+        {
+            "firstName": "NADIA",
+            "lastName": "AKRAM",
+            "avatar": "N",
+            "department": "Care Coordination"
+        },
+        {
+            "firstName": "M.YASIR",
+            "lastName": "NAWAZ",
+            "avatar": "M",
+            "department": "Call Center"
+        },
+        {
+            "firstName": "TANZEEL MUSTAFA",
+            "lastName": "RANA",
+            "avatar": "T",
+            "department": "Business Development & Research"
+        },
+        {
+            "firstName": "DANIYAL",
+            "lastName": "KAREEM",
+            "avatar": "D",
+            "department": "Audit & Compliance"
+        },
+        {
+            "firstName": "RIDA FATIMA",
+            "lastName": "QURASHI",
+            "avatar": "R",
+            "department": "Care Coordination"
+        },
+        {
+            "firstName": "RIMSHA",
+            "lastName": "MUMTAZ",
+            "avatar": "R",
+            "department": "Production"
+        },
+        {
+            "firstName": "MUNEEBA",
+            "lastName": "ROOHE",
+            "avatar": "M",
+            "department": "Production"
+        },
+        {
+            "firstName": "AYESHA",
+            "lastName": "ASGHAR",
+            "avatar": "A",
+            "department": "Procurement & Inventory"
+        },
+        {
+            "firstName": "ASSAD",
+            "lastName": "AKRAM",
+            "avatar": "A",
+            "department": "Call Center"
+        },
+        {
+            "firstName": "MEHR",
+            "lastName": "MUHAMMAD",
+            "avatar": "M",
+            "department": "Admin Management"
+        },
+        {
+            "firstName": "NADEEM",
+            "lastName": "MASEEH",
+            "avatar": "N",
+            "department": "Admin Management"
+        },
+        {
+            "firstName": "SAIMA RUBY",
+            "lastName": "SHABBIR",
+            "avatar": "S",
+            "department": "Care Coordination"
+        },
+        {
+            "firstName": "ABDULLAH NASEER",
+            "lastName": "KHAN",
+            "avatar": "A",
+            "department": "Call Center"
+        },
+        {
+            "firstName": "HAMDA",
+            "lastName": "NASEER",
+            "avatar": "H",
+            "department": "Care Coordination"
+        },
+        {
+            "firstName": "MALKA",
+            "lastName": "",
+            "avatar": "M",
+            "department": "Care Coordination"
+        },
+        {
+            "firstName": "M.ABDULLAH",
+            "lastName": "SHEIKH",
+            "avatar": "M",
+            "department": "Faisalabad Office"
+        },
+        {
+            "firstName": "WAJIHA",
+            "lastName": "NOOR",
+            "avatar": "W",
+            "department": "Faisalabad Office"
+        },
+        {
+            "firstName": "MUHAMMAD",
+            "lastName": "WAQAS",
+            "avatar": "M",
+            "department": "Services Team"
+        }
+    ],
+    "senior": [
+        {
+            "firstName": "AYESHA",
+            "lastName": "SHAUKAT",
+            "avatar": "A",
+            "department": "Faisalabad Office"
+        },
+        {
+            "firstName": "MAHFOOZ",
+            "lastName": "AHMED",
+            "avatar": "M",
+            "department": "Audit & Compliance"
+        },
+        {
+            "firstName": "AWAIS",
+            "lastName": "SHAUKAT",
+            "avatar": "A",
+            "department": "Faisalabad Office"
+        },
+        {
+            "firstName": "Muhammad",
+            "lastName": "BILAL",
+            "avatar": "M",
+            "department": "Production"
+        },
+        {
+            "firstName": "NOREEN",
+            "lastName": "TABASSUM",
+            "avatar": "N",
+            "department": "Production"
+        },
+        {
+            "firstName": "BAKHTAWAR ALI",
+            "lastName": "KHAN",
+            "avatar": "B",
+            "department": "Account Receivable"
+        },
+        {
+            "firstName": "ADNAN",
+            "lastName": "TAUNI",
+            "avatar": "A",
+            "department": "Call Center"
+        },
+        {
+            "firstName": "M.HASSAN",
+            "lastName": "ASLAM",
+            "avatar": "M",
+            "department": "Production"
+        },
+        {
+            "firstName": "ATIF",
+            "lastName": "SHAHZAD",
+            "avatar": "A",
+            "department": "Production"
+        },
+        {
+            "firstName": "PHOOL",
+            "lastName": "SALMAN",
+            "avatar": "P",
+            "department": "Faisalabad Office"
+        },
+        {
+            "firstName": "USMAN AHMAD",
+            "lastName": "QURESHI",
+            "avatar": "U",
+            "department": "Account Receivable"
+        },
+        {
+            "firstName": "MUHAMMAD",
+            "lastName": "JAVED",
+            "avatar": "M",
+            "department": "WC & NF"
+        },
+        {
+            "firstName": "MUHAMMAD",
+            "lastName": "USMAN",
+            "avatar": "M",
+            "department": "Accounts Management"
+        },
+        {
+            "firstName": "SYED MUHAMMAD KHURAM",
+            "lastName": "ABBAS",
+            "avatar": "S",
+            "department": "Account Receivable"
+        },
+        {
+            "firstName": "MUHAMMAD",
+            "lastName": "ZAHID",
+            "avatar": "M",
+            "department": "Account Receivable"
+        },
+        {
+            "firstName": "MUHAMMAD",
+            "lastName": "FAHEEM",
+            "avatar": "M",
+            "department": "Credentialing"
+        },
+        {
+            "firstName": "FAISAL",
+            "lastName": "NADEEM",
+            "avatar": "F",
+            "department": "Production"
+        },
+        {
+            "firstName": "SARAH",
+            "lastName": "IJAZ",
+            "avatar": "S",
+            "department": "Remote Team"
+        },
+        {
+            "firstName": "HASSAN MEHMOOD AKHTAR",
+            "lastName": "KHAN",
+            "avatar": "H",
+            "department": "Human Resource"
+        },
+        {
+            "firstName": "MUHAMMAD",
+            "lastName": "EHSAN",
+            "avatar": "M",
+            "department": "Production"
+        },
+        {
+            "firstName": "MUHAMMAD",
+            "lastName": "NADEEM",
+            "avatar": "M",
+            "department": "IT Management"
+        },
+        {
+            "firstName": "USMAN",
+            "lastName": "AHMED",
+            "avatar": "U",
+            "department": "Software Development"
+        },
+        {
+            "firstName": "ALI",
+            "lastName": "IMRAN",
+            "avatar": "A",
+            "department": "Account Receivable"
+        },
+        {
+            "firstName": "MUHAMMAD",
+            "lastName": "OMER",
+            "avatar": "M",
+            "department": "Call Center"
+        },
+        {
+            "firstName": "ARSLAN GULZAR",
+            "lastName": "BHUTTA",
+            "avatar": "A",
+            "department": "Admin Management"
+        },
+        {
+            "firstName": "KHURRAM",
+            "lastName": "SHEHZAD",
+            "avatar": "K",
+            "department": "EMR Research & Development"
+        },
+        {
+            "firstName": "HAMZA",
+            "lastName": "RASOOL",
+            "avatar": "H",
+            "department": "Call Center"
+        },
+        {
+            "firstName": "WAQAS",
+            "lastName": "MAZHAR",
+            "avatar": "W",
+            "department": "Remote Team"
+        },
+        {
+            "firstName": "KHALID",
+            "lastName": "MEHMOOD",
+            "avatar": "K",
+            "department": "Care Coordination"
+        },
+        {
+            "firstName": "MUHAMMAD",
+            "lastName": "ZEESHAN",
+            "avatar": "M",
+            "department": "HCDM"
+        },
+        {
+            "firstName": "AFZAAL",
+            "lastName": "AHAMED",
+            "avatar": "A",
+            "department": "Account Receivable"
+        },
+        {
+            "firstName": "FAHAD ALI",
+            "lastName": "MUNAWAR",
+            "avatar": "F",
+            "department": "Call Center"
+        },
+        {
+            "firstName": "REHMAN",
+            "lastName": "SHAHZAD",
+            "avatar": "R",
+            "department": "Production"
+        },
+        {
+            "firstName": "KHALID",
+            "lastName": "MEHMOOD",
+            "avatar": "K",
+            "department": "Audit & Compliance"
+        },
+        {
+            "firstName": "WAQAS",
+            "lastName": "SIDDIQUE",
+            "avatar": "W",
+            "department": "GA"
+        },
+        {
+            "firstName": "AYUB",
+            "lastName": "GILL",
+            "avatar": "A",
+            "department": "Training"
+        },
+        {
+            "firstName": "UMAIR SHER",
+            "lastName": "AWAN",
+            "avatar": "M",
+            "department": "Prior Authorization"
+        },
+        {
+            "firstName": "MUHAMMAD",
+            "lastName": "ABBAS",
+            "avatar": "M",
+            "department": "Call Center"
+        },
+        {
+            "firstName": "RAYHAM",
+            "lastName": "ASLAM",
+            "avatar": "R",
+            "department": "Audit & Compliance"
+        },
+         {
+            "firstName": "EHSAN",
+            "lastName": "BAIG",
+            "avatar": "E",
+            "department": "Software Development"
+        },
+        {
+            "firstName": "SAQIB ALI",
+            "lastName": "ZAIDI",
+            "avatar": "S",
+            "department": "WC & NF"
+        },
+        {
+            "firstName": "GHULAM",
+            "lastName": "FATIMA",
+            "avatar": "G",
+            "department": "Production"
+        },
+        {
+            "firstName": "ASSAD",
+            "lastName": "IQBAL",
+            "avatar": "A",
+            "department": "Account Receivable"
+        },
+        {
+            "firstName": "IMDAD",
+            "lastName": "ULLAH",
+            "avatar": "I",
+            "department": "Audit & Compliance"
+        },
+        {
+            "firstName": "MUJEEB-UR-REHMAN",
+            "lastName": "",
+            "avatar": "M",
+            "department": "Accounts Management"
+        },
+        {
+            "firstName": "ASAD",
+            "lastName": "ASLAM",
+            "avatar": "A",
+            "department": "Software Development"
+        },
+        {
+            "firstName": "M.SALMAN SHEIKH KASHIF",
+            "lastName": "TAYYAB",
+            "avatar": "M",
+            "department": "Faisalabad Office"
+        },
+        {
+            "firstName": "HIRA",
+            "lastName": "SHAUKAT",
+            "avatar": "H",
+            "department": "Care Coordination"
+        },
+        {
+            "firstName": "AMBREEN",
+            "lastName": "FATIMA",
+            "avatar": "A",
+            "department": "Prior Authorization"
+        }
+       
+    ]
+}
